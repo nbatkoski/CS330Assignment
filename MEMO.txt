@@ -1,0 +1,11 @@
+#CS330AssignmentMemo
+This assignment was created using python. First the studentID is requested using an input and a message requesting the ID is printed out. Then the the unlock is created by splicing the last 5 digits and adding a 1 to the end of it and the lock is created by slicing the last 5 digits and adding a 4 to it.
+
+Then the user is requested to make a random string using input and a message is read out requesting the user to do so.
+
+Then there is a series of if statments. If the unlock string is in the random string, then it prints "unlocked", if the lock string is in the random string, it prints "locked", if neither is true then "invalid" is printed. 
+
+For the second part, there is a number of symbols counted which is set to 0. Then a random string is generated using digits between 0 and 9, and uses the random API which is imported. It is parsed to a str and labeled as "attempt". And for i in the range of attempt. if the unlock is the next series of numbers, then return the number of symbols, but if not, then add 1 to the counter of number of symbols.
+
+Then an array of results is created. And in a for loop running 10 times, the lockpicking method mentioned above is ran, and the number of symbols is appended to the empty array results. 
+Using python methods, the min and max methods area called on the results array and printed with their respective labels.T hen the sum method is ran on the results array, and divided by the lenght method ran on the array. That number is then labeled as the avergae and printed out as such. 
